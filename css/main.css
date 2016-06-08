@@ -1,0 +1,888 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:'Crimson Text',sans-serif;
+}
+
+a{
+	text-decoration:none;
+	color:#369;
+}
+
+header,section{
+	margin:30px auto;
+	width:825px;
+	display:block;
+}
+
+hr{
+	background:white url("../img/img-hr.png") no-repeat scroll 50% 50%;
+	clear:both;
+	border:0;
+	height:12px;
+}
+
+sup{
+	color:#999;
+	font-weight:normal;
+	font-size:11px;
+}
+
+nav{
+	min-width:100%;
+	height:48px;
+	font-family:sans-serif;
+}
+
+nav ul{
+	float:right;
+	margin:12px 18px;
+	padding:10px 30px;
+}
+
+nav li{
+	margin:0 5px;
+	padding:5px;
+	font-size:12px;
+	display:inline-block;
+	color:#369;
+}
+
+nav a:hover{
+	color:#18AFE0;
+}
+
+.signin{
+	color:#18AFE0;
+}
+
+.signin:hover{
+	color:#369;
+}
+
+header{
+	clear:both;
+	height:163px;
+	padding:6px 0;
+	text-align:center;
+}
+
+header h1{
+	font-size:58px;
+	line-height:1em;
+	margin:10px 0;
+	color:#232323;
+}
+
+header h5{
+	font-weight:500;
+	font-size:20px;
+	line-height:1.5em;
+	margin:10px 0;
+	color:#222;
+}
+
+.products{
+	text-align:center;
+	height:288px;
+	padding-bottom:30px;
+}
+
+.products a{
+	position:relative;
+	top:40px;
+	left:75px;
+	width:160px;
+	margin:15px 20px 5px;
+	float:left;
+	border:1px solid #E8E8E6;
+	border-radius:5px;
+	box-shadow:0 0 5px #EFEFEF;
+	padding:20px 10px;
+	text-decoration:none;
+	font-family: 'Roboto', sans-serif;
+}
+
+.products h3{
+	font-size:21px;
+	color:#369;
+	font-weight:bold;
+	line-height:1.5em;
+	margin-bottom:10px;
+}
+
+.products h3 span{
+	text-decoration:underline;
+}
+
+.products h4{
+	margin:10px 0;
+	font-size:14px;
+	color:#C00;
+}
+
+.products p{
+	color:#222;
+	font-size:14px;
+	line-height:1.4em;
+	margin:5px 0;
+}
+
+.customers{
+	margin-bottom:50px;
+	position:relative;
+}
+
+.customers h2{
+	color:#232323;
+	font-size:48px;
+	line-height:1.1em;
+	letter-spacing:-1px;
+	text-align:center;
+}
+
+.customers p{
+	font-size:22px;
+	line-height:1.3em;
+	color:#666;
+	margin-bottom:20px;
+}
+
+.meet{
+	position:absolute;
+	left:-140px;
+	top:70px;
+}
+
+.meet a{
+	display:block;
+	width:143px;
+	height:104px;
+	background:url("../img/img-customers.png") no-repeat 0 0;
+	text-indent:-1000em;
+}
+
+.meet a:hover{
+	background-position:0 100%;
+}
+
+.meet p{
+	font-size:14px;
+	text-align:center;
+	color:#369;
+}
+
+.meet p:hover{
+	color:#69C;
+	text-decoration:underline;
+}
+
+.arrow-left{
+	width:69px;
+	height:36px;
+	position:relative;
+	top:-35px;
+}
+
+.globe{
+	float:right;
+}
+
+.manifesto{
+	margin-bottom:50px;
+	padding-left:15px;
+	overflow:hidden;
+	text-align:center;
+}
+
+.manifesto h2{
+	color:#232323;
+	font-size:48px;
+	line-height:1.1em;
+	letter-spacing:-1px;
+	margin:30px 0;
+}
+
+.colume, .colume-end{
+	float:left;
+	color:#222;
+	font-size:18px;
+	line-height:1.5em;
+}
+
+.colume{
+	width:380px;
+	margin-right:40px;
+}
+
+.colume-end{
+	margin-right:0px;
+	width:380px;
+}
+
+.manifesto h3{
+	float:left;
+	font-size:58px;
+	line-height:normal;
+	margin:-10px 15px 0 0;
+	color:#CCC;
+}
+
+.manifesto h4{
+	font-family: 'Roboto', sans-serif;
+	margin:5px 0;
+	color:#C00;
+	text-align:left;
+}
+
+.manifesto p{
+	font-family: 'Roboto', sans-serif;
+	text-align:left;
+	line-height:1.4em;
+	font-size:12px;
+}
+
+.rework{
+	height:500px;
+	position:relative;
+}
+
+.rework h2{
+	margin:30px 0;
+	font-size:48px;
+	line-height:1.1em;
+	letter-spacing:-1px;
+	text-align:center;
+}
+
+.book{
+	float:left;
+}
+
+.quotes{
+	padding-top:5px;
+	text-align:center;
+}
+
+.quotes h3{
+	color:#888;
+	font-weight:normal;
+	font-family:'CrimsonRomanItalic', serif;
+	font-style:italic;
+	font-size:22px;
+	margin-top:35px;
+	margin-bottom:10px;
+}
+
+.quotes p{
+	font-family:'Roboto',sans-serif;
+	font-size:12px;
+}
+
+.arrow-right{
+	width:69px;
+	position:absolute;
+	top:140px;
+	right:5px;
+}
+
+.crumple{
+	position:absolute;
+	top:50px;
+	right:-125px;
+}
+
+.crumple p{
+	font-size:12px;
+	text-align:center;
+}
+
+.crumple p:hover{
+	color:#69C;
+	text-decoration:underline;
+}
+
+.offerings h2{
+	margin:30px 0;
+	font-size:48px;
+	text-align:center;
+}
+
+.offerings .colume h3, .offerings .colume-end h3{
+	border-bottom:1px solid #E8E8E8;
+	font-family:'Roboto', sans-serif;
+	font-size:16px;
+	margin:5px 0;
+	color:#C00;
+}
+
+.offerings .colume{
+	float:left;
+	width:300px;
+	margin-right:30px;
+	margin-left:110px;
+	text-align:center;
+} 
+
+.offerings .colume-end{
+	float:left;
+	width:300px;
+	padding:0;
+	margin-right:0;
+	margin-left:0;
+	margin-bottom:30px;
+	text-align:center;
+}
+
+.offerings .colume li, .offerings .colume-end li{
+	list-style-type:none;
+	padding:5px;
+} 
+
+.offerings .colume a, .offerings .colume-end a{
+	font-size:22px;
+	font-weight:bold;
+	color:#222;
+}
+
+.offerings .colume small, .offerings .colume-end small{
+	color:#666;
+	font-size:12px;
+	font-family:'Lucida Grande', sans-serif;
+}
+
+footer{
+	margin:30px auto;
+	text-align:center;
+	line-height:1.5em;
+	font-family: 'Lucida Grande', sans-serif;
+}
+
+footer h3{
+	font-size:14px;
+	color:#C00;
+}
+
+footer a{
+	text-decoration:none;
+}
+
+footer li{
+	font-size:12px;
+	padding:5px 0;
+}
+
+footer a:hover{
+	color:#69C;
+}
+
+footer p{
+	font-size:10px;
+	color:#999;
+	margin-top:50px;
+}
+
+@media (max-width: 823px){
+	header{
+		height:151px;
+	}
+	header h1{
+		text-align: center;
+    	font-size: -webkit-xxx-large;
+	}
+	header h5{
+		text-align: center;
+    	font-size: large;
+	}
+	.customers h2 {
+	    font-size: xx-large;
+	    text-align: center;
+	}
+	img{
+		-webkit-transform:scale(.9);
+	}
+	.meet {
+	    position: absolute;
+	    left: 140px;
+	    top: 110px;
+	}
+	.arrow-left{
+		position: absolute;
+	    top: 100px;
+	    left: 300px;
+	}
+	.msc{
+		margin-top: 20px;
+    	margin-left: 13px;
+	}
+	.globe a img{
+		position: absolute;
+    	left: 448px;
+    	top: 89px;
+	}
+	.olc{
+	    margin-top: 216px;
+	    text-align: left;
+	    margin-left: 90px;
+	    margin-right: 140px;
+	}
+	.customers p {
+		font-size:medium;
+	}
+	.twm{
+	    margin-top: 26px;
+	    text-align: left;
+	    margin-left: 90px;
+	    margin-right: 140px;
+	}
+	.partners{
+		-webkit-transform:scale(.8);
+		margin-top: 17px;
+	}
+	.manifesto h2 {
+	    font-size: x-large;
+	    margin: 7px 0 30px -79px;
+   }
+   .manifesto p {
+	   	margin: 0 60px 0 43px;
+	}
+	.rework {
+	    height: 461px;
+	}
+	.rework h2 {
+	    font-size: x-large;
+	    margin: 44px 124px 150px 51px;
+   }
+   .crumple a img{
+		position: absolute;
+    	left: -375px;
+    	top: 19px;
+	}
+	.arrow-right{
+		position: absolute;
+	    top: 100px;
+	    left: 530px;
+	}
+	.fom{
+		margin-top: 138px;
+    	margin-left: -607px;
+	}
+	 .book a img{
+		position: absolute;
+    	left: 10px;
+    	top: 49px;
+	}
+	.quotes h3{
+		font-size: medium;
+    	margin: 35px 110px 15px 280px;
+	}
+	.quotes p{
+		margin: 0 142px 0 322px
+	}
+	.offerings h2 {
+		font-size:xx-large;
+	    margin: 30px 159px;
+	}
+}
+
+@media (max-width: 685px){
+	img{
+		-webkit-transform:scale(.8);
+	}
+	header{
+		height:63px;
+		margin-left:-66px;
+	}
+	header h1{
+		text-align: center;
+    	font-size: larger;
+	}
+	header h5{
+		text-align: center;
+    	font-size: small;
+	}
+	nav ul{
+		margin: 12px 55px;
+		padding:10px 0;
+	}
+	.products{
+		margin: 20px -33px;
+	}
+	.products a{
+		margin:0 7px;
+	}
+	.customers{
+		margin-left:-63px;
+	}
+	.customers h2 {
+	    font-size: x-large;
+	    margin: 0px 129px 242px 108px;
+	}
+	.partners{
+		-webkit-transform:scale(.7);
+		margin-top: 17px;
+	}
+	.manifesto h2 {
+	    margin: 7px 250px 50px 75px;
+	}
+	.colume {
+	    margin: 0 -50px 0 28px;
+    }
+	.manifesto p {
+	    margin: 0 110px 0 39px;
+	    font-size: 11px;
+  	}
+  	.manifesto h3 {
+	    font-size: 50px;
+	}
+	.manifesto h4 {
+	    font-size: 15px;
+	}
+	.rework {
+	    height: 521px;
+	}
+	.rework h2 {
+	    font-size: larger;
+	    margin: 44px 204px 150px 61px;
+	    line-height: 1.6em;
+	}
+	.crumple a img{
+    	left: -485px;
+	}
+	.arrow-right{
+	    left: 420px;
+	}
+	.fom{
+		margin-top: 148px;
+    	margin-left: -821px;
+    }
+    .quotes {
+	    margin: 0 78px 0 -9px;
+	}
+	.olc{
+		margin:140px;
+	}
+	.twm{
+		margin: 27px 140px;
+	}
+	.offerings h2 {
+		margin-left:0;
+	}
+	.offerings .colume {
+		margin-left:30px;
+	}
+	footer p {
+    	font-size: 9px;
+	}
+}
+
+@media (max-width: 480px){
+	nav ul
+	{
+		margin: 12px 32px;
+	}
+	nav li 
+	{
+	    margin: 0px 0px;
+	    font-size: 11px;
+	}
+	header 
+	{
+	    margin:0 -199px 0 -161px;
+	    font-size: 12px;
+	}
+	header h5 
+	{
+	    font-size: x-small;
+	}
+	.products
+	{
+		-webkit-transform:scale(.7);
+		margin: -18px -135px;
+	}
+	.customers h2 
+	{
+	    font-size: large;
+	    margin: 0px 304px 173px 86px;
+	}
+	.meet 
+	{
+	    left: 60px;
+	    top: 50px;
+	    -webkit-transform: scale(.7);
+	}
+
+	.meet .msc
+	{
+		margin-left:15px;
+	}
+
+	.arrow-left 
+	{
+	    top: 66px;
+	    left: 228px;
+	    -webkit-transform: scale(.7);
+	}
+
+	.globe 
+	{
+		-webkit-transform: scale(.7);
+	    position: absolute;
+	    left: 49px;
+	    top: 10px;
+	}
+
+	.customers p 
+	{
+	  	font-size: smaller;
+	    margin-left: 100px;
+	    margin-right: 316px;
+	    margin-bottom: 14px;
+	}
+
+	.partners 
+	{
+        margin-left: -103px;
+	    -webkit-transform: scale(.5);
+	}
+
+	.customers 
+	{
+		margin-bottom: 26px;
+	}
+
+	.manifesto h2 
+	{
+		font-size: 18px;
+	    line-height: 1.3em;
+	    letter-spacing: -1px;
+	    margin:7px 414px 33px 30px;
+	}
+
+	.manifesto h3 
+	{
+		font-size: 35px;
+	}
+
+	.manifesto h4 
+	{
+	    font-size: 11px;
+	}
+
+	.manifesto p 
+	{
+	    margin: 0 192px 0 31px;
+	    font-size: 9px;
+	}
+
+	.colume 
+	{
+	    margin: 0 -150px 0 8px;
+	}
+
+	.manifesto
+	{
+		margin-bottom: 40px;
+	}
+
+	.rework h2 
+	{
+	    font-size: 16px;
+	    margin:30px 380px 150px 33px;
+	}
+
+	.book a img 
+	{
+	    left: -10px;
+	    top: -20px;
+	    -webkit-transform: scale(.5);
+	}
+
+	.crumple 
+	{
+	    right: 145px;
+	    -webkit-transform: scale(.7);
+	}
+
+	.arrow-right 
+	{
+	    left: 270px;
+	}
+
+	.quotes h3 
+	{
+	    font-size: 12px;
+	    margin: 10px 309px 15px 221px;
+	}
+
+	.quotes p 
+	{
+	    margin: 0 142px 0 42px;
+	    font-size:10px;
+	}
+
+	.rework 
+	{
+	    height: 418px;
+	}
+
+	.offerings h2 
+	{
+	    font-size: 18px;
+	    margin:30px 309px 30px -37px;
+	}
+
+	.offerings .colume h3, .offerings .colume-end h3 
+	{
+	    font-size: 12px;
+	    margin:0;
+	}
+
+	.offerings .colume a, .offerings .colume-end a 
+	{
+	    font-size: 15px;
+	}
+	.offerings .colume small, .offerings .colume-end small {
+	    font-size: 8px;
+	}
+	.offerings .colume {
+		margin:0 -90px 0 -25px;
+	}
+	.offerings ul{
+		line-height:1.2em;
+	}
+	footer ul{
+		line-height:1.2em;
+	}
+	footer h3 {
+	    font-size: 11px;
+	}
+	footer li {
+	    font-size: 10px;
+	}
+	footer p {
+	    margin:25px;
+	}
+}
+
+@media (max-width: 375px){
+	nav li {
+	    font-size: 8px;
+	}
+	header {
+	    margin: 0 -199px 0 -222px;
+	    font-size: 9px;
+	}
+	header img {
+	    -webkit-transform: scale(.7);
+	}
+	header h1{
+		margin-top: 0px;
+	}
+	header h5 {
+	    font-size: 9px;
+	}
+	.products {
+	    -webkit-transform: scale(.6);
+	    margin: -54px -199px;
+	}
+	hr {
+	    height: 12px;
+	    -webkit-transform: scale(.7);
+	}
+	.customers h2 {
+	    font-size: 15px;
+	    margin: 0px 398px 173px 78px;
+	}
+	.globe {
+	    left: -31px;
+	}
+	.customers p {
+	    font-size: 12px;
+	    margin-right: 416px;
+	}
+	.partners {
+	    margin-left: -149px;
+	    -webkit-transform: scale(.4);
+	}
+	.customers {
+	    margin-bottom: 5px;
+	}
+	.manifesto {
+	    margin-top: 14px;
+	    margin-bottom: 31px;
+	}
+	.manifesto h2 {
+	    font-size: 15px;
+	    margin: 7px 485px 18px 10px;
+	}
+	.colume {
+	    margin: 0 -204px 0 0px;
+	}
+	.manifesto h3 {
+	    font-size: 25px;
+	}
+	.manifesto h4 {
+	    font-size: 10px;
+	}
+	.manifesto p {
+	    margin: 0 226px 0 27px;
+	    font-size: 8px;
+	}
+	.rework h2 {
+	    font-size: 15px;
+	    margin: 30px 464px 150px 12px;
+	}
+	.book a img {
+	    left: -64px;
+	    top: -53px;
+	    -webkit-transform: scale(.4);
+	}
+	.crumple {
+	    right: 245px;
+	}
+	.arrow-right {
+	    left: 190px;
+	}
+	.quotes h3 {
+	    font-size: 11px;
+	    margin: 5px 409px 15px 150px;
+	}
+	.quotes p {
+	    margin: 0 142px 0 -114px;
+	    font-size: 8px;
+	}
+	.rework {
+	    height: 379px;
+	}
+	.offerings h2 {
+	   	margin-left: -133px;
+	}
+	.offerings .colume {
+	    margin: 0 -121px 0 -55px;
+	}
+	.offerings .colume h3, .offerings .colume-end h3 {
+	    font-size: 10px;
+	}
+	.offerings .colume a, .offerings .colume-end a {
+	    font-size: 12px;
+	}
+	.offerings .colume small, .offerings .colume-end small {
+	    font-size: 7px;
+	}
+	.offerings ul {
+	    line-height: 1em;
+	}
+	footer h3 {
+	    font-size: 10px;
+	}
+	footer li {
+	    font-size: 9px;
+	}
+	footer ul {
+	    line-height: 1em;
+	}
+}
